@@ -27,7 +27,7 @@ function Header() {
         },
     ]
   return (
-    <div className='flex items- justify-between'>
+    <div className='flex items-center justify-between'>
         <div>
             <h2 className='text-[24px] font-bold text-white'>RAHUL 
             <span className='text-red-500'> SANAP</span></h2>
@@ -42,7 +42,7 @@ function Header() {
             ))}
             <h2 className='text-white 
                     hover:border-[1px] border-red-500 rounded-full
-                    text-[15px] px-3 py-1 cursor-pointer hover:bg-gradient-to-r from-red-500 to-red-800 '>Hire Me</h2>
+                    text-[15px] px-3 py-1 cursor-pointer hover:bg-gradient-to-r from-red-500 to-red-800 '>HIRE ME</h2>
         </div>
         <div className='md:hidden'>
            {!toggle? <HiBars3BottomRight onClick={()=>setToggle(!toggle)} className='text-white text-[22px] cursor-pointer'/>
